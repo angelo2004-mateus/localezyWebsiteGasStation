@@ -18,6 +18,7 @@ const Header = () => {
 
         <div style={{backgroundImage: `url('${mainPhoto}')`}} className='bg-cover bg-no-repeat bg-center h-[100%] w-[100%] '>
         </div>
+    
     </header>
   )
 }

@@ -12,6 +12,8 @@ const Main = () => {
 
   return (
     <main id='main' className='flex flex-wrap gap-10 justify-center h-[70vh] overflow-scroll items-center px-[40px] bg-[#EEEEEE]'>
+      <p className='text-2xl w-full text-center'>MELHORES PREÇOS DE <b>GASOLINA</b></p> 
+      <p className='w-full text-center text-xl'>Deve-se considerar apenas Gasolina como combustivel de melhor preço</p>
       {card.map((item, index) => <Card key={item.id} nomePosto={item.posto} 
       endereco={item.bairro || item.Bairro} gas={item.gasolina} eta={item.etanol} 
       die={item.diesel} link={item.localizacao} propLink={'blank'}/>)}
